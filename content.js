@@ -1,0 +1,4 @@
+
+
+
+	//$(".collection-grid").sortable( "disable" )

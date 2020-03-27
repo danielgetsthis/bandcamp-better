@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Make Bandcamp Better",
+  "version": "0.1.0",
+  "description": "Make Bandcamp better for STS9 streamers",
+
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png",
+	          "128": "icon128.png" },
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery-3.4.1.min.js", "jquery-ui.min.js", "content.js"],
+    "matches": ["https://bandcamp.com/*"]
+  }]
+
+}

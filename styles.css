@@ -1,0 +1,18 @@
+.fan-bio,
+.fan-banner,
+.info-items,
+.collection-item-details-container .knockout-container,
+div.collection-item-details-container .collected-by,
+li.collection-item-container .release-label,
+div.share-wrapper,
+.carousel-player .purchased{
+	display: none!important;
+}
+
+li.collection-item-container{
+	min-height: initial!important;
+}
+.carousel-player .now-playing .title{
+	white-space: normal!important;
+	overflow: auto!important;
+}
